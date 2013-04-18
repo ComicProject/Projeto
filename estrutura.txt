@@ -1,0 +1,11 @@
+
+	O site foi dividido em 4 partes:
+
+
+1. O arquivo "index.html" trata-se da página inicial do site.
+
+2. O diretório "imagens" contém as ilustrações usadas para o estilo.
+
+3. O diretório "Website" contém as outras páginas HTML usadas para o desenvolvimento do site.
+
+4. O diretório "Website" contém o arquivo css que foi usado para a estilização geral.

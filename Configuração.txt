@@ -1,0 +1,6 @@
+
+1. Descompacte o arquivo "website.rar" que irá gerar um diretório chamado "website".
+
+2. Dentro do diretório contém um arquivo chamado "index.html" que possui o conteúdo do site a partir do início, e alguns diretórios usados para o desenvolvimento do site.
+
+3. Abra o aquivo "index.html" para acessar o site.

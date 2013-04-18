@@ -1,0 +1,143 @@
+body{
+background-image:url(imagens/marvel-logo-papel-de-parede-os-vingadores-155806.jpg);
+background-size:1600px 800px;
+background-repeat:no-repeat;
+background-position:center left;
+background-attachment:fixed;
+margin: 0px;
+text-align:center; /* hack para o IE */
+}
+
+#tudo{
+width:940px;
+height: auto;
+margin:auto;
+
+background-color:black;
+}
+
+
+
+#conteudo{
+width:928px;
+height:835px;
+margin:auto;
+padding-left:5px;
+background-color:black;
+}
+
+.credito{
+text-align: right;
+}
+
+
+#menu{
+width:924px;
+height:40px;
+margin:auto;
+text-align:center; /* hack para o IE */
+background-image:url(imagens/menu.jpg);
+background-repeat:repeat-x;
+}
+
+
+#nav, #nav *{
+margin:0px;
+padding:0px;
+display:block;
+	text-decoration:none;
+}
+
+#nav{width:100%;
+	list-style:none;
+	font: 16px verdana,arial,hevaltica,sans-serif;
+
+	 display:block;
+	 float:left;
+}
+#nav li{
+float:left;
+}
+#nav li a{
+	padding:10px 20px 10px 10px;
+	color:#FFFFFF;
+	font-weight: bolder;
+	
+	float:left;
+}
+
+#nav li a:hover{
+padding:10px 20px 10px 10px;
+	color:#FFFFFF;
+	background-color:darkred;
+	float:left;
+}
+
+#colEsquerda{
+width:582px;
+height:607px;
+margin-right:5px;
+text-align:justify;
+background-color:black;
+float:left;
+padding-left:5px;
+padding-right:5px;
+margin-top:5px;
+font: 14px verdana,arial,hevaltica,sans-serif;
+color:white;
+
+
+
+}
+#colDireita{
+width:326px;
+height:620px;
+margin:auto;
+padding-top:5px;
+background-color:#black;
+float:left;
+}
+#agenda{
+width:321px;
+height:195px;
+margin:auto;
+padding-top:5px;
+background-color:black;
+text-align:left;
+margin-bottom:5px;
+color:white;
+font: 14px verdana,arial,hevaltica,sans-serif;
+
+}
+#cadastro{
+width:321px;
+height:123px;
+margin:auto;
+padding-top:5px;
+background-color:black;
+margin-bottom:5px;
+font: 14px verdana,arial,hevaltica,sans-serif;
+}
+.fotos{
+width: 80px;
+height:100px;
+
+`}
+
+#video{
+width:321px;
+height:270px;
+margin:auto;
+background-color:#E3D4B5;
+
+}
+
+#rodape{
+width:928px;
+height:250px;
+margin:auto;
+margin-top:150px;
+padding-left:5px;
+background-color:black;
+color:#FFFFFF;
+}

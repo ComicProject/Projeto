@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="Rodrigo Sávio,Nícolas Rodrigues" />
+<title>Comic Project</title>
+
+<link href="estilo.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript">
+
+//Validação Do Fomurlário de Login
+	function validaForm()
+{
+var y=document.forms["Formulario"]["fpass"].value;
+var x=document.forms["Formulario"]["fnome"].value;
+if (x==null || x=="")
+  {
+  alert("Digite seu nome corretamente.");
+  return false;
+  }
+if (y==null || y=="")
+  {
+  alert("Digite sua senha corretamente.");
+  return false;
+  }
+}
+
+//Função para ocultar e exibir um parágrafo(HTML dom)
+function changeVisibility(value){
+		document.getElementById("texto").style.visibility = value;
+		  }
+
+
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<div id="tudo">
+
+	<div id="conteudo">
+		<div id="topo">
+	
+			<img style="width: 500; height: 200px;" src="imagens/marvel-heoroes.jpg"/>
+	
+		</div><!-- Fim da div topo -->
+		
+		<div id="menu">
+	
+			<ul id='nav'>
+				<li><a href='index.html' target='_self' >Ínicio</a></li>
+				<li><a href='Herois.html' target='_self' >Herois</a></li>
+				<li><a href='videos.html' target='_self' >Videos</a></li>
+				<li><a href='contato.html' target='_self' >Contato</a></li>
+			</ul>
+	
+		</div><!-- Fim da div menu -->
+		
+		<div id="colEsquerda">
+	
+		
+		<img src="imagens/marvel-logo-papel-de-parede-os-vingadores-155806.jpg" width="582" height="400"/>
+	</br>
+	</br>
+
+		<h2>História</h2>
+ 
+		<br /><p id = "texto">DC Comics é uma editora norte-americana de histórias em quadrinhos e mídia relacionada, sendo considerada uma das maiores companhias ligadas a este ramo no mundo. A empresa é subsidiária da companhia Time Warner e detém a propriedade intelectual de muitos dos mais famosos personagens de quadrinhos daquele país, como Batman, Superman, Mulher-Maravilha, Lanterna Verde, Flash, Aquaman e seus grupos como Liga da Justiça da América, Sociedade da Justiça da América, Novos Titãs, Renegados, Aves de Rapina, Patrulha do Destino, Legião dos Super-Heróis, All-Star Squadron, entre outros. Por décadas a DC tem sido uma das duas maiores companhias de quadrinhos daquele país, ao lado da Marvel Comics (sua rival histórica). Originalmente, a companhia era conhecida como National Comics e com o tempo passou a adotar a sigla "DC" que originalmente se referia a Detective Comics, uma de suas revistas mais vendidas (a qual é publicada até hoje e apresenta histórias de Batman).</p>
+		<button onclick="changeVisibility('hidden')">Ocultar</button>
+		<button onclick="changeVisibility('visible')">Exibir</button>
+
+
+		
+
+
+			
+		</div><!-- Fim da div colEsquerda -->
+		
+		<div id="colDireita">
+		
+			<div id="agenda">
+					<center><h3 style="margin-top:0px;margin-bottom:0px;"><strong> Lançamentos</strong></h3></center>
+				
+				
+				<br />
+			 Reino Do Amanha
+			<br />			
+			 Vingadores vs Liga Da Justiça
+			<br />
+			Torre De Babel
+			<br />
+			Superman
+			<br />
+			Quarteto Fantástico
+			<br />
+			Universo DC:Superman
+			<br />
+			Deadpool
+			<br />
+
+
+				
+				
+			
+			</div>
+			
+			<div id="cadastro">
+			
+			<div id="cad">
+			<form name="Formulario" onsubmit="return validaForm()">
+			<table>
+			<tr>
+			<td bgcolor="black" style="color:#FFFFFF;"><label>Nome</label></td>
+			<td><input type="text" name="fnome"></td>
+			</tr>
+			
+			<tr>
+			<td bgcolor="black" style="color:#FFFFFF;"><label>Senha</label></td>	
+			<td><input type ="password" name = "fpass"></td>
+			</tr>
+			<tr><td><input type="submit" value="Submit"></tr></td>
+			 </table>
+			</form>
+			</div>
+			</div>
+            
+			<div id="video">
+			
+			<iframe width="321" height="270" src="http://www.youtube.com/embed/xy9Wntkb7KU?feature=player_detailpage" frameborder="0"></iframe>
+
+
+
+			</div>
+		</div><!-- Fim da div colDireita -->
+		
+	
+	
+	</div><!-- Fim da div conteudo -->
+	<div id="rodape"> <br/> <br/> <br/> <br/> <br/> <br/>
+		<br /><p class="credito">Produzido por: <strong>Rodrigo Sávio,Nícolas Rodrigues</strong></center><br/></p>
+	</div>
+
+</div><!-- Fim da div tudo -->
+
+</body>
+</html>
